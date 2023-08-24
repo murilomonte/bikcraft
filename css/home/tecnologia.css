@@ -1,0 +1,15 @@
+.tecnologia-bg {
+    background-color: var(--c11);
+}
+
+.tecnologia {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 40px;
+}
+
+.tecnologia-imagem img {
+    height: 100%;
+    width: 100%;
+    object-position: left;
+}

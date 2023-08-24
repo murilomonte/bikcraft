@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600;700&family=Roboto:wght@400;500;700&display=swap');
+
+:root {
+    --font-1: 'Poppins', Arial, Helvetica, sans-serif;
+    --font-2: 'Roboto', Arial, Helvetica, sans-serif;
+}
+
+/* Extra grande */
+.font-1-egg {
+    font: 600 4rem/1.125 var(--font-1);
+}
+
+/* Muito grande */
+.font-1-gg {
+    font: 600 2rem/1.25 var(--font-1);
+}
+
+.font-2-gg {
+    font: 500 2rem/1.25 var(--font-2);
+}
+
+/* Grande */
+.font-1-g {
+    font: 400 1.5rem/1.5 var(--font-1);
+}
+
+.font-2-g,
+.font-2-g-B {
+    font: 400 1.5rem/1.5 var(--font-2);
+}
+
+.font-2-g-B {
+    font-weight: 500;
+    letter-spacing: 0.015em;
+    text-transform: uppercase;
+}
+
+@media (max-width: 1200px) {
+    .font-1-egg {
+        font-size: 3rem;
+    }
+    .font-2-g,
+    .font-2-g-B {
+        font-size: 1.125rem;
+    }
+    }
+    
+    @media (max-width: 800px) {
+    .font-1-egg {
+        font-size: 2rem;
+    }
+    .font-1-gg,
+    .font-2-gg {
+        font-size: 1.5rem;
+    }
+}
+
+/* Médio */
+.font-1-m,
+.font-1-m-B {
+    font: 400 1.125rem/1.35 var(--font-1);
+}
+
+.font-1-m-B {
+    font-weight: 600;
+}
+
+.font-2-m {
+    font: 500 1.125rem/1.35 var(--font-2);
+}
+
+/* Pequeno */
+.font-1-p {
+    font: 400 1rem/1.5 var(--font-1);
+}
+    
+.font-2-p {
+    font: 400 1rem/1.5 var(--font-2);
+}
+
+/* Muito pequeno */
+.font-1-pp {
+    font: 400 0.75rem/1.35 var(--font-1);
+}
+
+.font-2-pp {
+    font: 400 0.875rem/1.43 var(--font-2);
+}
+
+
+
+
+
+
+

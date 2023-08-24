@@ -1,0 +1,75 @@
+.bicicletas-lista {
+    padding: 60px 0px;
+}
+
+.bicicletas-lista h2 {
+    margin-bottom: 20px;
+    /* Width igual ao container acima para alinhar com o mesmo */
+    /* width: 1200px; */
+}
+
+.bicicletas-lista ul {
+    display: flex;
+    gap: 40px;
+    padding: 0 20px 20px 20px;
+
+    /* Width maior para quebra */
+    max-width: 1400px;
+    margin: 0 auto;
+
+    /* Overflow serve para escolher o que acontece quando um elemento extoura o container */
+    /* Com overflow-x: auto; é definido que o elemento tenha o scroll automaticamente somente no eixo x */
+    overflow-x: auto;
+}
+
+.bicicletas-lista li {
+    min-width: 280px;
+}
+
+.bicicletas-lista a {
+    /* Display block pois caso contrário o tab não seleciona todo o elemento */
+    display: block;
+}
+
+.bicicletas-lista img {
+    margin-bottom: 16px;
+}
+
+.bicicletas-lista h3 {
+    margin-bottom: 8px;
+
+    /* Display flex para alinhar o pseudo elemento */
+    display: flex;
+    align-items: center;
+}
+
+.bicicletas-lista h3::before {
+    content: '';
+    background-color: var(--p1);
+    display: inline-block;
+    height: 8px;
+    width: 12px;
+    margin-right: 8px;
+
+    /* o controle da animação tem que ser aqui para ser suave */
+    transition: .3s;
+}
+
+.bicicletas-lista a:hover h3::before {
+    width: 24px;
+}
+
+.bicicletas-lista li span {
+    /* Para alinhar, é usado um padding com a largura do pseudo-elemento somado a margin do mesmo */
+    padding-left: calc(12px + 8px);
+}
+
+@media (max-width: 800px) {
+    .bicicletas-lista {
+        padding-bottom: 60px;
+    }
+
+    .bicicletas-lista ul {
+        gap: 20px;
+    }
+}

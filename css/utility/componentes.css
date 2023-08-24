@@ -1,0 +1,36 @@
+:root {
+    --button-graditent: #FFBF00, #F2A50C;
+    --button-gradient-hover: #FFB60d, #E59317;
+}
+
+
+.container {
+    max-width: 1200px;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin: 0 auto;
+}
+
+.botao {
+    padding: 16px 32px;
+    display: inline-block;
+    background: linear-gradient(var(--button-graditent));
+    border-radius: 4px;
+    box-shadow: 0px 1px 2px rgba(0, 0, 0, .1);
+    text-transform: uppercase;
+    color: var(--p5);
+    font-family: var(--font-1);
+    font: 600 1.125rem/1.35 var(--font-1)
+}
+
+.botao:hover {
+    background: linear-gradient(var(--button-gradient-hover));
+}
+
+@media (max-width: 600px) {
+    .botao {
+        padding: 12px 16px;
+        font-size: 1rem;
+    }
+}
+

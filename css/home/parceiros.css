@@ -37,7 +37,7 @@
     margin: auto;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 800px) {
     .parceiros {
         padding-bottom: 60px;
     }
@@ -48,6 +48,10 @@
 
     .parceiros ul {
         grid-template-columns: repeat(2, 1fr);
+    }
+
+    .parceiros li {
+        padding: 20px;
     }
 
     .parceiros li:nth-child(n + 3) {

@@ -7,6 +7,10 @@
 
 /* Extra grande */
 .font-1-egg {
+    /*
+        A shorthand font utiliza a seguinte sintáxe:
+        font: weight size/line-height family 
+    */
     font: 600 4rem/1.125 var(--font-1);
 }
 

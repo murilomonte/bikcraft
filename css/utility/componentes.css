@@ -20,11 +20,23 @@
     text-transform: uppercase;
     color: var(--p5);
     font-family: var(--font-1);
-    font: 600 1.125rem/1.35 var(--font-1)
+    font: 600 1.125rem/1.35 var(--font-1);
+
+    /* Com isso o tamanho máximo do botão será o tamanho máximo do conteúdo */
+    max-width: max-content;
 }
 
 .botao:hover {
     background: linear-gradient(var(--button-gradient-hover));
+}
+
+.botao.secundario {
+    background: var(--c10) ;
+    color: var(--c2);
+}
+
+.botao.secundario:hover {
+    background-color: var(--c9);
 }
 
 @media (max-width: 600px) {

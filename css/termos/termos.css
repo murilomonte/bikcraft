@@ -1,4 +1,18 @@
-.introducao-bg {
-    box-shadow: none;
-    background-color: var(--c11);
+.termos {
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+.termos h2 {
+    font-weight: 600;
+    margin-bottom: 20px;   
+}
+
+.termos p + h2 {
+    margin-top: 40px;
+}
+
+.termos p {
+    max-width: 75ch;
+    margin-bottom: 24px;
 }

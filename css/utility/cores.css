@@ -1,5 +1,6 @@
 :root {
     --w: white;
+    --c0: var(--w);
     --c1: #F7F7F7;
     --c2: #EDEDED;
     --c3: #DEDEDE;

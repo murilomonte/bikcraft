@@ -8,15 +8,17 @@
 /* Todo: adicionar comentários referentes ao tamanho original do projeto */
 
 /* Extra grande */
+/* font-1-xxl */
 .font-1-egg {
     /*
         A shorthand font utiliza a seguinte sintáxe:
-        font: weight size/line-height family 
+        font: weight size/line-height family;
     */
     font: 600 4rem/1.125 var(--font-1);
 }
 
 /* Muito grande */
+/* font-1-xl */
 .font-1-gg {
     font: 600 2rem/1.25 var(--font-1);
 }
@@ -26,15 +28,19 @@
 }
 
 /* Grande */
+/* font-1-, */
 .font-1-g {
     font: 400 1.5rem/1.5 var(--font-1);
 }
 
+/* font-2-l */
 .font-2-g,
+/* font-2-l-B */
 .font-2-g-B {
     font: 400 1.5rem/1.5 var(--font-2);
 }
 
+/* font-2-l-B */
 .font-2-g-B {
     font-weight: 500;
     letter-spacing: 0.015em;
@@ -42,60 +48,67 @@
 }
 
 @media (max-width: 1200px) {
+    /* font-1-xxl */
     .font-1-egg {
         font-size: 3rem;
     }
+    /* font-2-l */
     .font-2-g,
+    /* font-2-l-B */
     .font-2-g-B {
         font-size: 1.125rem;
     }
     }
     
     @media (max-width: 800px) {
+    /* font-1-xxl */
     .font-1-egg {
         font-size: 2rem;
     }
+    /* font-1-xl */
     .font-1-gg,
+    /* font-2-xl */
     .font-2-gg {
         font-size: 1.5rem;
     }
 }
 
 /* Médio */
+/* font-1-m */
 .font-1-m,
+/* font-1-m-B */
 .font-1-m-B {
     font: 400 1.125rem/1.35 var(--font-1);
 }
 
+/* font-1-m-B */
 .font-1-m-B {
     font-weight: 600;
 }
 
+/* font-2-m */
 .font-2-m {
     font: 500 1.125rem/1.35 var(--font-2);
 }
 
 /* Pequeno */
+/* font-1-s */
 .font-1-p {
     font: 400 1rem/1.5 var(--font-1);
 }
-    
+  
+/* font-2-s */
 .font-2-p {
     font: 400 1rem/1.5 var(--font-2);
 }
 
 /* Muito pequeno */
+/* font-1-xs */
 .font-1-pp {
     font: 400 0.75rem/1.35 var(--font-1);
 }
 
+/* font-2-xs */
 .font-2-pp {
     font: 400 0.875rem/1.43 var(--font-2);
 }
-
-
-
-
-
-
-

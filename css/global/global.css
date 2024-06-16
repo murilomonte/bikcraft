@@ -4,7 +4,8 @@
     padding: 0px;
 }
 
-body {
+body,
+dt {
     margin: 0px;
 }
 

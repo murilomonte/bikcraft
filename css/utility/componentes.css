@@ -24,6 +24,8 @@
 
     /* Com isso o tamanho máximo do botão será o tamanho máximo do conteúdo */
     max-width: max-content;
+    border: none;
+    cursor: pointer;
 }
 
 .botao:hover {

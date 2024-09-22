@@ -3,7 +3,6 @@
     --button-gradient-hover: #FFB60d, #E59317;
 }
 
-
 .container {
     max-width: 1200px;
     padding-left: 20px;
@@ -95,6 +94,14 @@
 .titulo-bg {
     padding: 60px 0px;
     background-color: var(--c11);
+}
+
+.titulo {
+    background: 
+        url("../../img/dec/top-right.svg")
+        no-repeat
+        top
+        right 20px;
 }
 
 .titulo p {

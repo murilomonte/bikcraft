@@ -112,7 +112,13 @@
 
 .orcamento-dados {
     border-radius: 0 5px 5px 0;
-    background-color: var(--c0);
+    color: var(--c0);
+    background: 
+        var(--c12)
+        url("../../img/dec/bottom-right.svg")
+        no-repeat
+        bottom 20px
+        right 20px;
 }
 
 /* Onde a magia começa. */
@@ -172,6 +178,7 @@
 
     .orcamento-produto {
         border-radius: 5px 5px 0 0;
+        background: var(--c12);
     }
 
     .orcamento-dados {

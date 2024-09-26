@@ -34,12 +34,13 @@
     transition: .3s;
 }
 
-.header-menu a:hover::after {
+.header-menu a:hover::after,
+.header-menu a.ativo::after {
     width: 100%;
     transition: .3s;
 }
 
-@media  (max-width: 800px) {
+@media (max-width: 800px) {
     .header-menu {
         gap: 20px;
     }
